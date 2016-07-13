@@ -1,0 +1,23 @@
+{
+	"name": "foolz/foolfuuka-plugin-phash",
+	"type": "foolz-foolfuuka-plugin",
+	"description": "Adds Perceptual Hashing. WARNING: Using this plugin might make your site as slow as Foolz.",
+	"version": "1.0.4",
+	"keywords": ["phash", "hash"],
+	"homepage": "http://www.4plebs.org",
+	"license": "Apache-2.0",
+	"authors": [{"name": "4plebs", "email": "admin@4plebs.org"}],
+	"support": {
+		"email": "admin@4plebs.org",
+		"irc": "irc://irc.irchighway.net/fooldriver"
+	},
+	"require" : {
+	  	"aodto/phasher" : "dev-master"
+	},
+
+	"extra": {
+		"name": "Perceptual Hash",
+		"slug": "phahs",
+		"module": "foolfuuka"
+	}
+}

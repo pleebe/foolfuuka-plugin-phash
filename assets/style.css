@@ -1,0 +1,15 @@
+.phash_image {
+	float: left;
+	margin: 20px;
+	text-align: center;
+    min-height: 150px;
+    min-width: 100px;
+	max-height: 250px;
+    max-width: 250px;
+}
+.phash_tools {
+    text-align: center;
+}
+.hashes {
+    clear: both;
+}
